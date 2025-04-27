@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: MY FONT;
+    }
+    body{
+        background: #147549;
+    }
+    ul li {
+        padding: 30px;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+.btn:hover{
+    border: 1px solid white;
+}
+#bn{
+    background:#147549;
+     color: aliceblue;
+     justify-content: center;
+     display: flex;
+     width: 130px;
+     border: 2px solid #147549;
+}
+#bn:hover{
+    border: 2px solid wheat;
+}
+#bb{
+    background-color: 	#0b421a;
+    border: none;
+transition: transform 0.4s ease;
+border: 1px solid #147549;
+}
+#bb:hover{
+    transform: scale(1.04);
+    border: 1px solid white;
+}
+/* Set navbar height */
+
+.footer {
+  background-color: #0b421a;
+  text-align: center;
+  padding: 10px 0;
+  padding-top: 14px;
+  height: 100px;
+}
+
+.github-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.github-link svg {
+  width: 50px;
+  height: 50px;
+  fill: #fff; /* Makes the icon white */
+}
+
+.github-link:hover {
+  transform: scale(1.1);
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #0b421a;">
+
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="logo.png" alt="star bucks" height="70px" style=" border-radius: 999px; ; "></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: aliceblue; " >
+            <span class="navbar-toggler-icon"  ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"  style="color: aliceblue;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html" style="color: aliceblue; text-decoration: 2px solid underline;">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: aliceblue;">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: aliceblue;">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- PRODUCT CARDS -->
+<div class="container py-5">
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic1.png" class="card-img-top" alt="Product 1" height="360px">
+          <div class="card-body d-flex flex-column align-items-center" id="scale">
+            <h5 class="card-title" style="color: antiquewhite; text-align: center;">Product 1</h5>
+            <p class="card-text" style="color: antiquewhite; text-align: center;">This is a short description of Product 1.</p>
+            <a href="#" class="btn"  id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic2.jpeg" class="card-img-top" alt="Product 2" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 2</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 2.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic3.jpeg" class="card-img-top" alt="Product 3" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 3</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 3.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic4.jpeg" alt="Product 4" height="360px" class="card-img-top">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 4</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 4.</p>
+            <a href="#" class="btn"  id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic5.jpeg" alt="Product 5" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 5</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 5.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic6.jpeg" class="card-img-top" alt="Product 6" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 6</h5>
+            <p class="card-text" style="color: antiquewhite;"> This is a short description of Product 6.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 7 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic7.jpeg" class="card-img-top" alt="Product 7" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 7</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 7.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 8 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic8.jpeg" class="card-img-top" alt="Product 8" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title"style="color: antiquewhite;">Product 8</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 8.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 9 -->
+      <div class="col-md-4">
+        <div class="card h-100" id="bb">
+          <img src="pic9.jpeg" class="card-img-top" alt="Product 9" height="360px">
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title" style="color: antiquewhite;">Product 9</h5>
+            <p class="card-text" style="color: antiquewhite;">This is a short description of Product 9.</p>
+            <a href="#" class="btn" id="bn">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <a href="https://github.com/ayaann777" target="_blank" class="github-link" aria-label="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 24 24">
+        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.799 8.207 11.387.6.113.793-.262.793-.582
+        0-.287-.01-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
+        1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.418-1.305.76-1.605-2.665-.304-5.467-1.333-5.467-5.931
+        0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404
+        1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.874.12 3.176.77.84
+        1.234 1.911 1.234 3.221 0 4.609-2.807 5.625-5.479 5.921.429.37.823 1.102.823 2.222
+        0 1.606-.015 2.898-.015 3.293 0 .322.192.699.801.58C20.565 21.796 24 17.297 24 12
+        24 5.37 18.63 0 12 0z"/>
+      </svg>
+    </a>
+    <p style="color: aliceblue; margin-top: 12px; font-weight: bolder;">AYAAN</p>
+  </footer>
+</body>
+</html>
